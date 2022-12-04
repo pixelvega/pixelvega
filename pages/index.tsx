@@ -23,11 +23,11 @@ export default function Home() {
         </div>
         <h1 className={styles.title}>
           Welcome to <br></br>
-          <span className={styles.highlight}>Pixelvega</span>\'s home!
+          <span className={styles.highlight}>Pixelvega</span>'s home!
         </h1>
         <p className={styles.subtitle}>
-          Sorry, there\'s nothing to see here. <br></br>Come back soon and maybe
-          you\'ll be lucky {":)"}
+          Sorry, there's nothing to see here. <br></br>Come back soon and maybe
+          you'll be lucky {":)"}
         </p>
       </main>
     </div>
