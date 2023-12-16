@@ -1,6 +1,6 @@
 .container {
   padding: 0 2rem;
-  background-color: #45d294;
+  background-color: #262634;
 }
 
 .main {
@@ -11,12 +11,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #002f1a;
+  color: #45d294;
 }
 
 .image {
   border-radius: 100%;
-  box-shadow: 6px 6px 11px rgba($color: #168b58, $alpha: .8);
+  box-shadow: 6px 6px 11px rgba($color: #20202ccc, $alpha: 0.8);
   margin-bottom: 30px;
   .img {
     display: block;
@@ -31,7 +31,7 @@
 }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 

@@ -1,6 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.scss";
+import Head from "next/head"
+import Image from "next/image"
+import styles from "../styles/Home.module.scss"
+import Snow from "../src/components/snow/snow"
 
 export default function Home() {
   return (
@@ -21,15 +22,15 @@ export default function Home() {
             height={260}
           />
         </div>
+        <Snow />
         <h1 className={styles.title}>
           Welcome to <br></br>
           <span className={styles.highlight}>Pixelvega</span>'s home!
         </h1>
         <p className={styles.subtitle}>
-          Sorry, there's nothing to see here. <br></br>Come back soon and maybe
-          you'll be lucky {":)"}
+          Come back soon, a blizzard of exciting content is on the way!{" "}
         </p>
       </main>
     </div>
-  );
+  )
 }

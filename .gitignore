@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#firebase
+/services/pixelvega-blog-firebase-adminsdk-v6l9e-69eac199ac.json
